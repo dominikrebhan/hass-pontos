@@ -62,9 +62,6 @@
       "current_consumption": {
         "name": "Aktueller Wasserverbrauch"
       },
-      "current_flow": {
-        "name": "Aktueller Durchfluss"
-      },
       "leak_test_pressure": {
         "name": "Druckabfall Lecktest"
       },

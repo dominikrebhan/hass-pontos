@@ -62,9 +62,6 @@
       "current_consumption": {
         "name": "Consommation d’eau actuelle"
       },
-      "current_flow": {
-        "name": "Courant d'eau actuelle"
-      },
       "leak_test_pressure": {
         "name": "Chute de pression du test de fuite"
       },

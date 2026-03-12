@@ -63,6 +63,14 @@ SENSOR_DETAILS = {
         "device_class": SensorDeviceClass.WATER,
         "state_class": "total_increasing",
     },
+    "water_flow": {
+        "name": "Water flow",
+        "endpoint": "getFLO",
+        "unit": "L/h",
+        "device_class": SensorDeviceClass.WATER,
+        "state_class": SensorStateClass.TOTAL_INCREASING,
+        "scale": 1,
+    },
     "no_pulse_time": {
         "name": "Time since last turbine pulse",
         "endpoint": "getNPS",
@@ -76,14 +84,6 @@ SENSOR_DETAILS = {
         "entity_category": EntityCategory.DIAGNOSTIC,
         "scale": 0.001,
     },
-    "current_flow": {
-            "name": "Current water flow rate",
-            "endpoint": "getFLO",
-            "unit": "L/h",
-            "device_class": SensorDeviceClass.WATER,
-            "state_class": SensorStateClass.TOTAL_INCREASING,
-            "entity_category": EntityCategory.DIAGNOSTIC,
-        },
     "leak_test_pressure": {
         "name": "Leak test pressure drop",
         "endpoint": "getDBD",
